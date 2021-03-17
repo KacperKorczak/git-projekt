@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 
 $sql = "INSERT INTO pracownicy (id, imie, dzial, zarobki)
-VALUES (null, 'Kacper', 1, 25)";
+VALUES (null, 'Jan', 1, 25)";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
